@@ -1,0 +1,82 @@
+body {
+    font-family: "Vesper Libre", serif;
+    color: #1a1a1a;
+    line-height: 1.5;
+    margin: 0;
+}
+
+header, footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+
+div img {
+    width: 100%;
+}
+
+#pitchfork-logo {
+    width: 100px;
+    padding-top: 8px;
+}
+
+main {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2rem;
+    line-height: 1.3;
+    margin: 1em 0;
+}
+
+.news {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: .85 rem;
+    border-bottom: 2px solid #ff3530;
+}
+
+#opensans {
+    font-family: "Open Sans";
+}
+
+.info {
+    font-size: .85rem;
+    margin: 0;
+}
+
+.figure {
+    margin: 1.25em 0;
+}
+
+.figcaption {
+    font-size: 0.75rem;
+    text-align: center;
+    color: #757575;
+    font-style: italic;
+}
+
+li {
+    list-style: none;
+    padding-left: 0;
+}
+
+a:link {
+    color: #1a1a1a;
+    text-decoration: underline;
+}
+
+/* a:visited {
+    color: #1a1a1a;
+} */
+
+/* ask if we need to add a:visited or not to get rid of the purple */
+
+a:hover {
+    text-decoration: none;
+    color: #ff3530;
+}
+
+
+
