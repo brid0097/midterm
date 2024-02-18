@@ -11,7 +11,7 @@ header, footer {
     text-align: center;
 }
 
-div img {
+img {
     width: 100%;
 }
 
@@ -27,24 +27,26 @@ main {
 h1 {
     font-size: 2rem;
     line-height: 1.3;
-    margin: 1em 0;
+    margin: 1rem 0;
 }
 
 .news {
     display: inline-block;
     text-transform: uppercase;
-    font-size: .85 rem;
+    font-size: .85rem;
     border-bottom: 2px solid #ff3530;
 }
 
 #opensans {
-    font-family: "Open Sans";
+    font-family: "Open Sans", sans-serif;
 }
 
 .info {
     font-size: .85rem;
-    margin: 0;
+    margin-bottom: 0;
 }
+
+/* margin-bottom doesn't get rid of the space between author and date, but margin: 0; does */
 
 .figure {
     margin: 1.25em 0;
@@ -57,10 +59,12 @@ h1 {
     font-style: italic;
 }
 
-li {
+ul > li {
     list-style: none;
     padding-left: 0;
 }
+
+/* My bullets won't align flush with the h2 */
 
 a:link {
     color: #1a1a1a;
