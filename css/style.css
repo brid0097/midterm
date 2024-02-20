@@ -30,14 +30,14 @@ h1 {
     margin: 1rem 0;
 }
 
-.news {
+#news {
     display: inline-block;
     text-transform: uppercase;
     font-size: .85rem;
     border-bottom: 2px solid #ff3530;
 }
 
-#opensans {
+.opensans {
     font-family: "Open Sans", sans-serif;
 }
 
@@ -46,36 +46,26 @@ h1 {
     margin-bottom: 0;
 }
 
-/* margin-bottom doesn't get rid of the space between author and date, but margin: 0; does */
-
 .figure {
     margin: 1.25em 0;
 }
 
-.figcaption {
+.nominees-caption {
     font-size: 0.75rem;
     text-align: center;
     color: #757575;
     font-style: italic;
 }
 
-ul > li {
+ul {
     list-style: none;
     padding-left: 0;
 }
-
-/* My bullets won't align flush with the h2 */
 
 a:link {
     color: #1a1a1a;
     text-decoration: underline;
 }
-
-/* a:visited {
-    color: #1a1a1a;
-} */
-
-/* ask if we need to add a:visited or not to get rid of the purple */
 
 a:hover {
     text-decoration: none;
